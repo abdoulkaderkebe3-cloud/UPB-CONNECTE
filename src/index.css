@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.inter{
+    font-family:'inter';
+}
+.gray{
+    color: #868686;
+}
+.bleu{
+    background: #0F172A;
+
+}
+.kader-shadow{
+    box-shadow: 0 3px 3px rgba(0.0.0.0.25);
+}
