@@ -1,12 +1,11 @@
 import React from 'react'
-import Container from './Container';
 import {ShareIcon} from "@heroicons/react/24/outline"
 
 
 
 export default function Cards( {titreCours="algo",typeCours="CM", time="14:00", room="salle alpha", studentCount="45", classe="l1assri" }){
   return (
-        <div className="bg-[#0F172A] text-white p-5 mx-auto  rounded-2xl shadow-lg w-full max-w-md">
+        <div className="bg-[#0F172A] text-white p-5 mx-auto   rounded-2xl shadow-lg w-full max-w-md">
           <div className='flex justify-between'>
               <div className="flex  items-center mb-4">
                 <span className="text-xs font-semibold uppercase tracking-wider opacity-80 text-[#A5B4FC]">
