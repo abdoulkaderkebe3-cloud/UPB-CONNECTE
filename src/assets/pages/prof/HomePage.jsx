@@ -8,7 +8,6 @@ export default function HomePage() {
   return (
     <div>
       <Header />
-      <hr />
       <Date />
       <Cards />
       <ListeClasse />

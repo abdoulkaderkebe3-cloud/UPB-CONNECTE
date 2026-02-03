@@ -22,7 +22,7 @@ export default function Edt() {
   ];
 
   return (
-    <div className="px-6 mt-8 space-y-8 pb-20 mb-8 inter">
+    <div className="px-6 mt-8 space-y-8 pb-20 mb-10 inter">
       {Data.map((section, idx) => (
         <div key={idx}>
           <h3 className="text-black font-bold bg- text-md mb-4 bg-gray-200  rounded-md">{section.jour}</h3>
